@@ -1,8 +1,8 @@
 const Header = () => {
     return (
-        <div className="header flex justify-between border-2 bg-amber-300">
+        <div className="header flex justify-between border-2 bg-amber-300 max-h-fit">
             <div className="logo-container">
-                <img className="logo w-40" src="../../public/logo-1.png " alt="Restaurant logo" />
+                <img className="logo w-40" src="logo-1.png " alt="Restaurant logo" />
             </div>
             <div className="nav-items px-5">
                 <ul className="flex px-5 h-full items-center">
